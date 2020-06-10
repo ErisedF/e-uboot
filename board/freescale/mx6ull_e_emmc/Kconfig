@@ -1,0 +1,12 @@
+if TARGET_MX6ULL_E_EMMC
+
+config SYS_BOARD
+	default "mx6ull_e_emmc"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_CONFIG_NAME
+	default "mx6ull_e_emmc"
+
+endif
